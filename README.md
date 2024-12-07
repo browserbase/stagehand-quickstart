@@ -1,4 +1,4 @@
-# Stagehand Quickstart
+# 🤘 Stagehand Quickstart
 
 This is a quickstart for [Stagehand](https://github.com/browserbase/stagehand), the AI interface to the web.
 
