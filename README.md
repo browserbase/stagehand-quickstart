@@ -11,12 +11,6 @@ This is a quickstart for [Stagehand](https://github.com/browserbase/stagehand), 
 - An OpenAI API key, set as the `OPENAI_API_KEY` environment variable
 - [Optional] A [Browserbase](https://browserbase.com) account. To run on Browserbase, set the `BROWSERBASE_API_KEY` and `BROWSERBASE_PROJECT_ID` environment variable.
 
-### Installing
-
-```bash
-npm install
-```
-
 ## Running the Script
 
 1. Copy the `.env.example` file to `.env` and fill in the values.
@@ -25,7 +19,19 @@ npm install
 cp .env.example .env
 ```
 
-2. Run the script:
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. You may need to install Playwright:
+
+```bash
+npx playwright install
+```
+
+4. Run the script:
 
 ```bash
 npm start

@@ -13,5 +13,8 @@
     "@browserbasehq/stagehand": "^1.5.0",
     "dotenv": "^16.4.7",
     "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.49.0"
   }
 }
